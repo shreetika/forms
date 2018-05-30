@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<form>
+		<h1>Personal bank initial application</h1>
+	<div class="content">
+		<div class="form-group">
+    		<label for="Branch"><b>Branch:</b></label>
+    		<input type="branch" class="form-control" id="branch" aria-describedby="emailHelp" placeholder="" required>
+    	</div>
+		<div class="form-group">
+    		<label for="cnum"><b>Citizen Number:</b></label>
+    		<input type="cnum" class="form-control" id="cnum" aria-describedby="emailHelp" placeholder="Enter your citizen number" required>
+    	</div>
+    	<label for="title"><b>Title:</b> </label>
+    	<div class="form-check form-check-inline">
+     		<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" required>
+     		<label class="form-check-label" for="inlineRadio1">Mr.</label>
+     	</div>
+     	<div class="form-check form-check-inline">
+  			<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+  			<label class="form-check-label" for="inlineRadio1" required>Mrs.</label>
+     	</div>
+     	<div class="form-check form-check-inline">
+  			<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" required>
+  			<label class="form-check-label" for="inlineRadio1" required>Miss.</label>
+		</div>
+		<div class="form-group">
+    		<label for="firstname"><b>First Name:</b></label>
+    		<input type="firstname" class="form-control" id="firstname" aria-describedby="emailHelp" placeholder="Enter your first name" required>
+    	</div>
+    	<div class="form-group">
+    		<label for="middlename"><b>Middle Name:</b></label>
+    		<input type="middlename" class="form-control" id="middlename" aria-describedby="emailHelp" placeholder="Enter your middle name" required>
+    	</div>
+    	<div class="form-group">
+    		<label for="lastname"><b>Last Name:</b></label>
+    		<input type="firstname" class="form-control" id="lastname" aria-describedby="emailHelp" placeholder="Enter lastname" required>
+    	</div>
+    	<label for="Gender"><b>Gender:</b></label>
+    	<div class="form-check">
+  			<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+  			<label class="form-check-label" for="exampleRadios1">
+    		Male
+  			</label>
+		</div>
+		<div class="form-check">
+  			<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  			<label class="form-check-label" for="exampleRadios2">
+    		Female
+  			</label>
+		</div>
+		<div class="form-check">
+  			<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" 		value="option2">
+  			<label class="form-check-label" for="exampleRadios2">
+    		Others
+  			</label>
+		</div>
+		<div class="form-group">
+    		<label for="date"><b>Date of birth:</b></label>
+    		<input type="date" class="form-control" id="date" aria-describedby="emailHelp" placeholder="Enter the date" required>
+    	</div>
+    	<div class="form-group">
+    		<label for="age"><b>Age:</b></label>
+    		<input type="number" class="form-control" id="age" aria-describedby="emailHelp" placeholder="your age" required>
+    	</div>
+    	<div class="form-group">
+    		<label for="nationality"><b>Nationality:</b></label>
+    		<input type="text" class="form-control" id="text" aria-describedby="emailHelp" placeholder="Nationality" required>
+    	</div>
+
+		<div class="form-group">
+    		<label for="inputAddress"><b>Permanent Address:</b></label>
+    		<input type="text" class="form-control" id="inputAddress" placeholder="Permanent address" required>
+  		</div>
+  			<div class="form-group">
+    		<label for="tempaddress"><b>Secondary Address:</b> </label>
+    		<input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" required>
+  		</div>
+  		<div class="form-group">
+    		<label for="firstname"><b>Grand father Name:</b></label>
+    		<input type="firstname" class="form-control" id="firstname" aria-describedby="emailHelp" placeholder="Enter your grandfather name" required>
+    	</div>
+    	<div class="form-group">
+    		<label for="firstname"><b>Father Name:</b></label>
+    		<input type="firstname" class="form-control" id="firstname" aria-describedby="emailHelp" placeholder="Enter your father name" required>
+    	</div>
+    	<div class="form-group">
+    		<label for="firstname"><b>Mother Name:</b></label>
+    		<input type="firstname" class="form-control" id="firstname" aria-describedby="emailHelp" placeholder="Enter your mother name" required>
+    	</div>
+  		<div class="form-row">
+    	<div class="form-group col-md-6">
+      		<label for="inputCity"><b>City</b></label>
+      		<input type="text" class="form-control" id="inputCity" required>
+    	</div>
+    	<div class="form-group col-md-4">
+     		 <label for="inputState"><b>State</b></label>
+      		<select id="inputState" class="form-control" required>
+        	<option selected><b>Choose</b></option>
+        	
+        		
+  				<option value="volvo">state 1</option>
+  				<option value="saab">State 2</option>
+ 				<option value="opel">State 3</option>
+  				<option value="audi">State 4</option>
+  				<option value="audi">State 5</option>
+  				
+        	
+      		</select>
+    	</div>
+    	<div class="form-group col-md-2">
+      		<label for="inputZip"><b>Zip</b></label>
+      		<input type="text" class="form-control" id="inputZip" required>
+    	</div>
+  
+		<div class="form-group">
+    		<label for="exampleInputEmail1"><b>Email address:</b></label>
+    		<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+    		<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+		</div>
+		<div class="form-group">
+    		<label for="PNumber"><b>Phone number:</b></label>
+    		<input type="number" class="form-control" id="age" aria-describedby="emailHelp" placeholder="phone number" required>
+    		<small id="emailHelp" class="form-text text-muted">We'll never share your phone number with anyone else.</small>
+    	</div>
+
+		</div>
+		<label for="Gender"><b>Education:</b></label>
+    	<div class="form-check">
+  			<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" required>
+  			<label class="form-check-label" for="exampleRadios1">
+    		Graduate
+  			</label>
+		</div>
+		<div class="form-check">
+  			<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2"required>
+  			<label class="form-check-label" for="exampleRadios2">
+    		Undergraduate
+  			</label>
+		</div>
+		<label for="Martial status"><b>Marital status:</b></label>
+    	<div class="form-check">
+  			<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" required>
+  			<label class="form-check-label" for="exampleRadios1">
+    		Married
+  			</label>
+		</div>
+		<div class="form-check">
+  			<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  			<label class="form-check-label" for="exampleRadios2">
+    		single
+  			</label>
+		</div>
+		<label for="Monthlyincome"><b>Monthly income:</b></label>
+    	<div class="form-check">
+  			<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" required>
+  			<label class="form-check-label" for="exampleRadios1">
+    		No income
+  			</label>
+		</div>
+		<div class="form-check">
+  			<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  			<label class="form-check-label" for="exampleRadios2">
+    		Less than Rs.10000
+  			</label>
+		</div>
+		<div class="form-check">
+  			<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" required>
+  			<label class="form-check-label" for="exampleRadios1">
+    		More than Rs.10000
+  			</label>
+		</div>
+		<label for="Gender"><b> Account details:</b></label>
+    	<div class="form-check">
+  			<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" required>
+  			<label class="form-check-label" for="exampleRadios1">
+    		Saving
+  			</label>
+		</div>
+		<div class="form-check">
+  			<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  			<label class="form-check-label" for="exampleRadios2">
+    		Current
+  			</label>
+		</div>
+		<div class="form-check">
+  			<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" required>
+  			<label class="form-check-label" for="exampleRadios1">
+    		Fixed
+  			</label>
+		</div>
+			<label for="Gender"> <b>Mode of funding:</b></label>
+		<div class="form-check">
+  			<input class="form-check-input" type="checkbox" value="" id="defaultCheck1"required>
+  			<label class="form-check-label" for="defaultCheck1">
+    		Cheque
+  			</label>
+		</div>
+		<div class="form-check">
+  			<input class="form-check-input" type="checkbox" value="" id="defaultCheck1"required>
+  			<label class="form-check-label" for="defaultCheck1">
+    		Cash
+  			</label>
+		</div>
+		<div class="form-check">
+  			<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  			<label class="form-check-label" for="defaultCheck1">
+    		NEFT
+  			</label>
+		</div>
+		
+    	<b>Reason of account opeaning:</b><br>
+  		<textarea rows="4" cols="50" name="comment" form="usrform">
+         Enter text here...</textarea><br><br>
+         <div class="form-group">
+           <label for="Photo"><b>PP Size Photo:</b></label><br>
+           <input type="file" class="user_photo" id="Photo" required>
+         </div>
+
+  		
+  		<b>Do you agree:</b>	<br>
+   		<input type="checkbox" name="box"> I/We confirm having read and understood the account rules of The Banking Corporation Limited ('the Bank'), and hereby agree to be bound by the terms and conditions and amendments governing the account(s) issued by the Bank from time-to-time.<br><br>
+ 	<input class="btn btn-primary" type="submit" value="Submit">
+      <input class="btn btn-primary" type="reset" value="Reset">
+
+	</div>
+
+	</form>
+
+
+</body>
+</html>

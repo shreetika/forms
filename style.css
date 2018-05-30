@@ -1,0 +1,35 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	padding: 70px,30px;
+	background-color:white;
+
+}
+
+h1{
+	margin: 0px;
+	padding: 0px 0px 20px;
+	text-align: center;
+	font-size: 30px;
+	color: black;
+	font-family: 'Fira Sans', sans-serif;
+
+}
+
+.content{
+	
+	
+	color:black;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-70% ,-10%);
+	box-sizing: border-box;
+	padding: 50px 30px;
+	border: 5px solid black;
+	margin-left: 85px;
+	margin-right: 200px;
+	background-color:#e1fae4;
+	
+}
